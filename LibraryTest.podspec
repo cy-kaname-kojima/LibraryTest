@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                               test
                    DESC
 
-  s.homepage     = "http://EXAMPLE/LibraryTest"
+  s.homepage     = "https://github.com/cy-kaname-kojima/LibraryTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/cy-kaname-kojima/LibraryTest", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cy-kaname-kojima/LibraryTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
